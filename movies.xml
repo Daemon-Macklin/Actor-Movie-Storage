@@ -1,0 +1,76 @@
+<object-stream>
+  <Movies>
+    <head>
+      <current class="Movie">
+        <title>Starwars: Empire Strikes Back</title>
+        <release>08/05/1982</release>
+        <genre>Sci-fi</genre>
+        <plot>Starwars stuff happens, it&apos;s the best one okay? he hoth battle was way cool.</plot>
+        <imgUrl>./img/empire.jpg</imgUrl>
+        <rating>10</rating>
+        <id>1</id>
+      </current>
+      <next>
+        <current class="Movie">
+          <title>Christmas with the Kranks</title>
+          <release>24/11/2010</release>
+          <genre>Comedy</genre>
+          <plot>It&apos;s pretty bad, watch the Jon Tron vid about it</plot>
+          <imgUrl>./img/kranks.png</imgUrl>
+          <rating>3</rating>
+          <id>2</id>
+        </current>
+        <next>
+          <current class="Movie">
+            <title>The Emoji movie</title>
+            <release>1/7/2017</release>
+            <genre>Not funny Comedy</genre>
+            <plot>It&apos;s hardly a movie don&apos;t even try to watch it you&apos;ll die.</plot>
+            <imgUrl>./img/bad.jpg</imgUrl>
+            <rating>1</rating>
+            <id>3</id>
+          </current>
+          <next>
+            <current class="Movie">
+              <title>World war Z</title>
+              <release>1/2/2015</release>
+              <genre>Action</genre>
+              <plot>I don&apos;t know zombies or something..I didn&apos;t see it</plot>
+              <imgUrl>./img/zombies.jpg</imgUrl>
+              <rating>6</rating>
+              <id>4</id>
+            </current>
+            <next>
+              <current class="Movie">
+                <title>The Incredibles</title>
+                <release>01/02/2008</release>
+                <genre>Animated</genre>
+                <plot>Super hero stuff </plot>
+                <imgUrl>img/inc.png</imgUrl>
+                <rating>9</rating>
+                <id>5</id>
+              </current>
+              <next>
+                <current class="Movie">
+                  <title>Space Jam</title>
+                  <release>09/02/1998</release>
+                  <genre>Animation</genre>
+                  <plot>Bugs bunny and Micheal Jordan play basketball</plot>
+                  <imgUrl>img/spacejam.png</imgUrl>
+                  <rating>10</rating>
+                  <id>6</id>
+                </current>
+                <before reference="../.."/>
+              </next>
+              <before reference="../.."/>
+            </next>
+            <before reference="../.."/>
+          </next>
+          <before reference="../.."/>
+        </next>
+        <before reference="../.."/>
+      </next>
+    </head>
+    <tail reference="../head/next/next/next/next/next"/>
+  </Movies>
+</object-stream>

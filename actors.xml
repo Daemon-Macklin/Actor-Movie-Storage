@@ -1,0 +1,90 @@
+<object-stream>
+  <Actors>
+    <head>
+      <current class="Actor">
+        <name>Matt Damon</name>
+        <nationality>American</nationality>
+        <dateOfBirth>08/02/1960</dateOfBirth>
+        <gender>M</gender>
+        <id>1</id>
+      </current>
+      <next>
+        <current class="Actor">
+          <name>Will Smith</name>
+          <nationality>American</nationality>
+          <dateOfBirth>08/02/1978</dateOfBirth>
+          <gender>M</gender>
+          <id>2</id>
+        </current>
+        <next>
+          <current class="Actor">
+            <name>Alan Rickman</name>
+            <nationality>English</nationality>
+            <dateOfBirth>08/03/1955</dateOfBirth>
+            <gender>Unspecified</gender>
+            <id>3</id>
+            <movieCredits/>
+          </current>
+          <next>
+            <current class="Actor">
+              <name>Brian Blessed</name>
+              <nationality>British</nationality>
+              <dateOfBirth>05/02/1949</dateOfBirth>
+              <gender>Unspecified</gender>
+              <id>4</id>
+              <movieCredits/>
+            </current>
+            <next>
+              <current class="Actor">
+                <name>Leonardo Decaprio</name>
+                <nationality>American</nationality>
+                <dateOfBirth>03/04/1978</dateOfBirth>
+                <gender>Unspecified</gender>
+                <id>5</id>
+                <movieCredits/>
+              </current>
+              <next>
+                <current class="Actor">
+                  <name>Mark Walburg</name>
+                  <nationality>American</nationality>
+                  <dateOfBirth>09/02/1979</dateOfBirth>
+                  <gender>Unspecified</gender>
+                  <id>6</id>
+                  <movieCredits/>
+                </current>
+                <next>
+                  <current class="Actor">
+                    <name>Jennifer Lawrence</name>
+                    <nationality>American</nationality>
+                    <dateOfBirth>08/01/1950</dateOfBirth>
+                    <gender>F</gender>
+                    <id>7</id>
+                    <movieCredits/>
+                  </current>
+                  <next>
+                    <current class="Actor">
+                      <name>Z</name>
+                      <nationality>American</nationality>
+                      <dateOfBirth>01/02/1960</dateOfBirth>
+                      <gender>M</gender>
+                      <id>8</id>
+                      <movieCredits/>
+                    </current>
+                    <before reference="../.."/>
+                  </next>
+                  <before reference="../.."/>
+                </next>
+                <before reference="../.."/>
+              </next>
+              <before reference="../.."/>
+            </next>
+            <before reference="../.."/>
+          </next>
+          <before reference="../.."/>
+        </next>
+        <before reference="../.."/>
+      </next>
+    </head>
+    <tail reference="../head/next/next/next/next/next/next/next"/>
+  </Actors>
+</object-stream>

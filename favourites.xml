@@ -1,0 +1,40 @@
+<object-stream>
+  <MyHash>
+    <hashTable>
+      <Movie>
+        <title>Starwars: Empire Strikes Back</title>
+        <release>08/05/1982</release>
+        <genre>Sci-fi</genre>
+        <plot>Starwars stuff happens, it&apos;s the best one okay? he hoth battle was way cool.</plot>
+        <imgUrl>./img/empire.jpg</imgUrl>
+        <rating>10</rating>
+        <id>1</id>
+      </Movie>
+      <Movie>
+        <title>World war Z</title>
+        <release>1/2/2015</release>
+        <genre>Action</genre>
+        <plot>I don&apos;t know zombies or something..I didn&apos;t see it</plot>
+        <imgUrl>./img/zombies.jpg</imgUrl>
+        <rating>6</rating>
+        <id>4</id>
+      </Movie>
+      <null/>
+      <null/>
+      <null/>
+      <Movie>
+        <title>Christmas with the Kranks</title>
+        <release>24/11/2010</release>
+        <genre>Comedy</genre>
+        <plot>It&apos;s pretty bad, watch the Jon Tron vid about it</plot>
+        <imgUrl>./img/kranks.png</imgUrl>
+        <rating>3</rating>
+        <id>2</id>
+      </Movie>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+    </hashTable>
+  </MyHash>
+</object-stream>
